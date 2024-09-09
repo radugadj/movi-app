@@ -1,0 +1,49 @@
+
+.header__container {
+  width: 100%;
+  background-color: #ffff;
+  width: 100%;
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0 auto;
+    &__title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 30px;
+      color: black;
+    }
+    .tool__bar {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+      .navLink, a.active {
+        border-radius: 10px;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+        color: #ffff;
+        padding: 5px 0;
+      }
+      .links {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 20px;
+        color: black;
+        background-color: bisque !important;
+        border-radius: 5px;
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+          transform: scale(1.07);
+          color: black;
+        }
+      }
+      .loginBtn {
+        background-color: black;
+      }
+    }
+  }
+
+}
+
+
